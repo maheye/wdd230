@@ -94,7 +94,6 @@ main{
 footer {
     box-sizing: border-box;
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -104,14 +103,4 @@ footer {
 footer p {
     margin: 0 auto;
     padding: 0 5px;
-}
-
-footer a {
-    text-decoration: underline;
-    color: var(--accent1-color);
-}
-
-footer a:hover {
-    text-decoration: underline;
-    font-weight: bold;
 }
