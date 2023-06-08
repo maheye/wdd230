@@ -4,7 +4,7 @@
 /* Custom properties */
 :root {
     --main-bk-color: #003459;
-    --secondary-bk-color: #fff4f4;
+    --secondary-bk-color: white; 
     --main-font-color: white;
     --secondary-font-color: rgba(255, 255, 0, 0.734);
     --title-font-family: 'Ubuntu';
