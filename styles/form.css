@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0047ab;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img, header h1 {
+    margin: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    padding: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #0047ab;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h2 {
+    margin: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.card {
+    background-color: white;
+}
+
+.card h3 {
+    background-color: #0047ab; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.card ul {
+    padding: 0;
+    list-style-type: none;
+}
+.card ul li{
+    padding: 10px;
+}
+
+#activities, #information {
+    border: 2px solid #333;
+    margin: 10px;
+}
+
+#information {
+    text-align: center;
+}
+
+#information p {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: gray;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 100%;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
+
+.map {
+    grid-column: 1/4;
+    margin: 10px auto;
+	position: relative;
+    width: 100%;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --font-color: #ecf0f1;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+/*----------- FORM --------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #2c3e50;
+    margin: 0 1rem; 
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;   
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem; 
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color:#9c2c13;
+    color: white;
+    border-radius:1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#r {
+	width: 100%;
+    padding: 10px;
+	margin-bottom: 1rem;
+}
+
+#rangevalue {
+    font-size:2rem;
+    margin-top: 1rem;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0 0 0 15px;
+}
+
+#rangevalues {
+	display: flex;
+    margin: 0 0 0 15px;
+	width: 100%;
+}
+
+
+#rangevalues option {
+	flex: 1 1 auto;
+    
+}
+
+footer p {
+    display: block;     
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	
+	nav ul {
+        display: flex;
+		width: 100%;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+	.navigation {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+
+	}
+	.navigation li {
+		display: block;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	.hero {
+		grid-column: 1/4;
+	}
+
+}
+

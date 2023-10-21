@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Course Assignment Portal for Heye Ma">
+    <meta name="author" content="Heye Ma">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Heye Ma - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="Heye Ma WDD230 Website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2016/11/21/17/40/buildings-1846728_1280.jpg">
+    <meta property="og:url" content="https://maheye.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/biography.jpg" alt="Heye Ma's picture">
+        <h1>Heye Ma</h1>
+        <div id="mode">
+            🕶️
+        </div>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="link" target="_blank">Home</a></li>
+            <li><a href="link" target="_blank">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a></li>
+            <li><a href="link" target="_blank">Form</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <form method="get" action="./record.html" onsubmit="storeData()">
+            <fieldset>
+              <legend>Form</legend>
+              <label class="top"
+                >Username*<input type="text" id="username" name="fname" required
+              /></label>
+              <label class="top"
+                >Password*<input
+                  type="password"
+                  id="password"
+                  name="password"
+                  required
+                  pattern="^[a-zA-Z0-9]{8,}$"
+                  title="Alpha-numeric at least 8 characters long"
+              /></label>
+              <label class="top"
+                >Confirm Password*<input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  required
+                  pattern="^[a-zA-Z0-9]{8,}$"
+                  title="Alpha-numeric at least 8 characters long"
+              /></label>
+              <label class="top"
+                >Email*<input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="someone@byui.edu"
+                  required
+                  pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                  title="Please enter a valid email address"
+              /></label>
+            </fieldset>
+    
+            <fieldset>
+              <legend>Page Rating</legend>
+              <label for="r">Select a rating:</label>
+              <input
+                type="range"
+                id="r"
+                name="r"
+                min="1"
+                max="10"
+                value="0"
+                step="1"
+                list="rangevalues"
+              />
+              <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </datalist>
+              <div id="rangevalue">1</div>
+            </fieldset>
+    
+            <input type="submit" value="Send my answers" class="submitBtn" />
+          </form>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="copyrightYear"></span> Heye Ma | China</p>
+        <p id="lastModified">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/darkMode.js" defer></script>
+    <script src="scripts/form.js"></script>
+
+</html>
