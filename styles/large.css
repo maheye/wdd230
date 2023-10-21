@@ -35,13 +35,11 @@
         height: 100%;
     }
 
-	footer {
-		position: fixed;
-	}	
 
 	.navigation {
 		display: flex;
 		justify-content: center;
+		width: 100%;
 
 	}
 	.navigation li {
@@ -54,6 +52,11 @@
 
 	.hero {
 		grid-column: 1/4;
+	}
+
+	.main {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 }

@@ -1,0 +1,47 @@
+:root {
+	--back: rgb(8, 8, 8);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsla(0, 9%, 89%, 0.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 3%, 87%);
+}
+
+body {
+	font-family: "Arial", serif;
+    text-align: center;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 20px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+    text-align: center;
+}
+
+th {
+	background-color: var(--back);
+	font-size: larger;
+    color: var(--forelight);
+}
+
+
+
+

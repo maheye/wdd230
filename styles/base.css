@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: burlywood;
+    background-color: #0047ab;
     color: white;
     text-align: center;
     padding: 5px;
@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: burlywood;
+    background-color: #0047ab;
 }
 
 main {
@@ -67,7 +67,7 @@ main h2 {
 }
 
 .card h3 {
-    background-color: gray; 
+    background-color: #0047ab; 
     color: white;
     text-align: center;
     margin: 0;
@@ -185,3 +185,9 @@ footer {
 	font-family:"Great Vibes", serif;
 }
 
+.map {
+    grid-column: 1/4;
+    margin: 10px auto;
+	position: relative;
+    width: 100%;
+}
