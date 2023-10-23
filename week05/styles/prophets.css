@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: #E1D89F;
+    color: #333;
+}
+  
+header, footer {
+    background-color: #27474E;
+    color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+header h1 {
+    font-size: 2rem;
+}
+  
+p {
+      padding-bottom: 10px;
+}
+  
+main {
+    padding: 20px;
+}
+  
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+  
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

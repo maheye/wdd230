@@ -1,0 +1,23 @@
+{
+    "familyName": "The Ma Family",
+    "dateMovedIntoTheWard": "2022",
+    "numberOfPeople": 3,
+    "visited": true,
+    "familyMembers": [
+        {
+            "name": "Austin Ma",
+            "gender": "Male",
+            "birthday": "December 10, 1995"
+        },
+        {
+            "name": "Emily Ye",
+            "gender": "Female",
+            "birthday": "November 15, 1995"
+        },
+        {
+            "name": "Kai Ma",
+            "gender": "Male",
+            "birthday": "March 7, 2022"
+        }
+    ]
+}
