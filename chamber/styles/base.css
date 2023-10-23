@@ -595,11 +595,11 @@
   
   /* WEATHER */
   
-  .weather-section {
+  /*.weather-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  }*/
   
   .weather-container {
     display: flex;

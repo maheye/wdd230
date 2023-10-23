@@ -1,5 +1,5 @@
-const apiKey = 'd13ca374f2f79abbac373e89e9c0210e';
-const cities = ['London', 'Taipei', 'Dubai', 'New York', 'Madrid'];
+const apiKey = '25f441a5940f48d2bb41947cf00d7e5b';
+const cities = ['Hsinchu'];
 
 async function fetchCurrentWeather(city) {
   const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
