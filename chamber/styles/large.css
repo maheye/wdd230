@@ -1,0 +1,109 @@
+@media screen and (min-width: 768px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+  
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    nav li {
+      flex: 1 1 100%;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    #menu {
+      display: none;
+    }
+  
+    .big-hero {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .content-wrapper {
+      
+      flex-direction:  row;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .image-group {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100vh;
+    }
+  
+    .image-group img {
+      width: 100%;
+      margin: 20px;
+    }
+  
+    .card-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .event-card {
+      width: 23%;
+      position: relative;
+    }
+  
+    .weather-box {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+  
+    .weather-box:nth-child(4),
+    .weather-box:nth-child(5) {
+      width: calc(30% - 10px);
+    }
+  
+    .main-discover {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+    }
+  
+    aside {
+      grid-column: 1/2;
+    }
+  
+    .image-column {
+      grid-column: 2/3;
+    }
+  
+    .image-column img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  
+    form label.sbs {
+      padding: 0.4rem 0;
+    }
+  
+    form {
+      padding-left: 20%;
+    }
+  
+    .benefits {
+      flex: 1;
+      margin-right: 300px;
+    }
+  
+  
+  
+  
+  
+  }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwan Semiconductor Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta
+      name="description"
+      content="Heye Ma- WDD 230 - Taiwan Semiconductor Chamber of Commerce"
+    />
+    <meta name="author" content="Heye Ma" />
+    <meta property="og:title" content="Taiwan Semiconductor Chamber of Commerce" />
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2016/11/21/17/40/buildings-1846728_1280.jpg" />
+    <meta property="og:url" content="https://maheye.github.io/wdd230/chamber/index.html" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./images/logo.webp" alt="Logo" id="logo" width="50" height="35" />
+        <h1 class="web-name">Taiwan Semiconductor Chamber of Commerce</h1>
+        <ul class="iconos">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.webp" alt="facebook logo" width="32" height="32" /></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.webp" alt="twitter logo" width="32" height="32"/></a>
+          </li>
+        </ul>
+    </header>
+  
+    <a id="menu" href="#" title="hamburger Menu"></a>
+    <nav>
+        <ul class="navigation">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./discover.html">Discover</a></li>
+          <li><a href="./join.html">Join</a></li>
+          <li><a href="./directory.html">Directory</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-discover">
+        <aside>
+  
+          <h3 id="visitMessage"></h3>
+
+          <div class="info-box ad">
+            <h3>Business Networking Gathering!</h3>
+            <p>Join us at our next Business Networking Gathering where local entrepreneurs mingle, exchange business cards, and create valuable connections. This event offers an excellent opportunity for businesses like yours to expand your network and explore potential collaborations in a relaxed and friendly atmosphere.</p>
+          </div>
+
+          <div class="info-box ad">
+            <h3>Small Business Workshop Series!</h3>
+            <p>Dive into our Small Business Workshop Series designed to empower entrepreneurs with practical skills. From interactive sessions on effective marketing strategies to workshops on financial planning, these events provide hands-on knowledge crucial for your business's growth. Learn from experts, ask questions, and apply insights directly to your business operations.</p>
+          </div>
+  
+          <div class="info-box ad">
+            <h3>Community Engagement Day!</h3>
+            <p>Make a difference in our community by participating in our Community Engagement Day. From organizing neighborhood clean-ups to hosting educational workshops for local schools, this event showcases the collective impact of businesses. Join us in giving back to the community that supports us all.</p>
+          </div>
+  
+          <div id="calendar"></div>
+  
+          <div class="info-box ad">
+            <h3>Expert Speaker Insights Series!</h3>
+            <p>Embrace the digital age with our upcoming seminar focused on assisting businesses transition to digital platforms and practices. Dive deep into digital marketing, e-commerce solutions, and online customer engagement. This event promises to equip businesses with the necessary tools and knowledge to thrive in a digital world. Register today!</p>
+          </div>
+
+          <div class="info-box ad">
+            <h3>Local Business Showcase!</h3>
+            <p>Explore our Local Business Showcase, where we highlight outstanding businesses in our community. Read about entrepreneurs who turned passions into successful ventures, discover unique products and services, and learn about the faces behind your favorite local establishments. Support these businesses by becoming a customer today.</p>
+          </div>
+
+          <div class="info-box ad">
+            <h3>Chamber Community Recognition Event!</h3>
+            <p>Celebrate excellence at our Chamber Community Recognition Event. Witness local businesses being honored for their exceptional contributions. From recognizing outstanding customer service to applauding eco-friendly initiatives, these awards showcase the best practices within our community. Be inspired by these success stories and celebrate the achievements of our local businesses.</p>
+          </div>
+        </aside>
+  
+        <div class="image-column">
+          <img src="./images/image1.webp" alt="coding" loading="lazy" width="500" height="300" />
+          <img src="./images/image2.webp" alt="chip" loading="lazy" width="500" height="300"/>
+          <img src="./images/image3.webp" alt="memory" loading="lazy" width="500" height="300"/>
+          <img src="./images/image4.webp" alt="first board" loading="lazy" width="500" height="300"/>
+          <img src="./images/image5.webp" alt="second board" loading="lazy" width="500" height="300" />
+          <img src="./images/image6.webp" alt="third board" loading="lazy" width="500" height="300"/>
+        </div>
+    </main>
+  
+    <footer>
+        <p>&copy; <span id="copyrightYear"></span> Heye Ma | China</p>
+        <p id="lastModified">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+    <script src="../scripts/getDates.js"></script>
+    <script src="./scripts/daysBetweenVisits.js"></script>
+    <script src="./scripts/calendar.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script>
+</body>
+</html>

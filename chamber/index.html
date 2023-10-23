@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwan Semiconductor Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta
+      name="description"
+      content="Heye Ma- WDD 230 - Taiwan Semiconductor Chamber of Commerce"
+    />
+    <meta name="author" content="Heye Ma" />
+    <meta property="og:title" content="Taiwan Semiconductor Chamber of Commerce" />
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2016/11/21/17/40/buildings-1846728_1280.jpg" />
+    <meta property="og:url" content="https://maheye.github.io/wdd230/chamber/index.html" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+    <header>
+        <img src="./images/logo.webp" alt="Logo" id="logo" width="50" height="35" />
+        <h1 class="web-name">Taiwan Semiconductor Chamber of Commerce</h1>
+        <ul class="iconos">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.webp" alt="facebook logo" width="32" height="32" /></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.webp" alt="twitter logo" width="32" height="32"/></a>
+          </li>
+        </ul>
+    </header>
+  
+    <a id="menu" href="#" title="hamburger Menu"></a>
+    <nav>
+        <ul class="navigation">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./discover.html">Discover</a></li>
+          <li><a href="./join.html">Join</a></li>
+          <li><a href="./directory.html">Directory</a></li>
+        </ul>
+    </nav>
+
+      
+
+
+    <main>
+
+        <div class="big-hero">
+          <div class="slider-container">
+            <div class="slide">
+              <picture>
+                <source srcset="images/hero-big-image1.webp" media="(min-width: 769px)"/>
+                <source srcset="images/hero-small-image1.webp" media="(max-width: 768px)"/>
+                <img src="./images/hero-big-image1.webp" alt="Semiconductor Chip" title="Chip"/>
+              </picture>
+            </div>
+  
+            <div class="slide">
+              <picture>
+                <source srcset="images/hero-big-image2.webp" media="(min-width: 769px)"/>
+                <source srcset="images/hero-small-image2.webp" media="(max-width: 768px)" />
+                <img src="./images/hero-big-image2.webp" alt="Technology" title="Technology"/>
+              </picture>
+            </div>
+
+            <div class="slide">
+              <picture>
+                <source srcset="images/hero-big-image3.webp" media="(min-width: 769px)" />
+                <source srcset="images/hero-small-image3.webp" media="(max-width: 768px)" />
+                <img src="./images/hero-big-image3.jpeg" alt="Team working" title="Teamwork" />
+              </picture>
+            </div>
+            <button class="slide-btn" id="prevSlide">&#9664;</button>
+            <button class="slide-btn" id="nextSlide">&#9654;</button>
+          </div>
+        </div>
+
+        <div class="content-wrapper">
+          
+          <div class="image-group">
+            <img src="./images/image1.webp" alt="Coding" title="Coding" width="281" height="176"/>
+          </div>
+  
+          <div class="image-group">
+            <img src="./images/image2.webp" alt="Chip" title="Chip" width="281" height="176" />
+          </div>
+  
+          <div class="image-group">
+            <img src="./images/image3.webp" alt="Memory Card" title="Memory" width="281" height="176" />
+          </div>
+  
+          <div class="image-group">
+            <img src="./images/image4.webp" alt="Board" title="Board" width="281" height="176" />
+          </div>
+        </div>
+  
+        <section class="current-events">
+          <h2>Current Events</h2>
+  
+          <div class="card-container">
+            <div class="event-card">
+              <img
+                src="./images/event1.webp" alt="Lorem ipsum" title="Lorem ipsum" width="214" height="163" />
+              <p>
+                The Santiago Chamber of Commerce continues to be a fundamental meeting point for leaders and entrepreneurs in the Chilean capital.
+              </p>
+              <button class="learn-more-btn">Learn More</button>
+            </div>
+
+            <div class="event-card">
+              <img
+                src="./images/event2.webp"
+                alt="Lorem ipsum" title="Lorem ipsum" width="214" height="163" />
+              <p>
+                At our most recent event, we had the honor of having the participation of business leaders and young visionaries.
+              </p>
+              <button class="learn-more-btn">Learn More</button>
+            </div>
+  
+            <div class="event-card">
+              <img
+                src="./images/event3.webp"
+                 alt="Lorem ipsum" title="Lorem ipsum" width="214" height="163" />
+              <p>
+                The Santiago Chamber of Commerce takes a step towards the future with the inauguration of its new building, designed with sustainability.
+              </p>
+              <button class="learn-more-btn">Learn More</button>
+            </div>
+
+            <div class="event-card">
+              <img
+                src="./images/event4.webp"
+                alt="Lorem ipsum" title="Lorem ipsum" width="214" height="163" />
+              <p>
+                This space promises to be the epicenter of numerous activities, workshops, and meetings aimed at strengthening the business.
+              </p>
+              <button class="learn-more-btn">Learn More</button>
+            </div>
+          </div>
+        </section>
+  
+
+
+        <!-- Weather -->
+        <section class="weather-section">
+          <h2>Weather</h2>
+  
+          <div class="weather-container">
+  
+          <div class="weather-box">
+            <span class="city-name">London</span>
+            <img class="weather-icon" src="./images/clima.png" width="32" height="32" loading="lazy" alt="Ícono del clima" >
+            <span class="temp"></span>
+            <span class="desc"></span> 
+            
+          </div>
+  
+          
+          <div class="weather-box">
+            <span class="city-name">Santiago</span>
+            <img class="weather-icon" src="./images/clima.png" width="32" height="32" loading="lazy" alt="Ícono del clima" >
+            <span class="temp"></span>
+            <span class="desc"></span> 
+            
+          </div>
+  
+          
+          <div class="weather-box">
+            <span class="city-name">Dubai</span>
+            <img class="weather-icon" src="./images/clima.png" width="32" height="32" loading="lazy" alt="Ícono del clima" >
+            <span class="temp"></span>
+            <span class="desc"></span> 
+           
+          </div>
+  
+          
+          <div class="weather-box">
+            <span class="city-name">New York</span>
+            <img class="weather-icon" src="./images/clima.png" width="32" height="32" loading="lazy" alt="Ícono del clima" >
+            <span class="temp"></span>
+            <span class="desc"></span> 
+            
+          </div>
+  
+          
+          <div class="weather-box">
+            <span class="city-name">Madrid</span>
+            <img class="weather-icon" src="./images/clima.png" width="32" height="32" loading="lazy" alt="Ícono del clima" >
+            <span class="temp"></span>
+            <span class="desc"></span> 
+            
+          </div>
+        </div>
+        </section>
+  
+        <!-- Spotlights section -->
+        <section class="spotlights-section">
+          <h2>Spotlights</h2>
+  
+          <div class="spotlights-container">
+            
+          </div>
+        </section>
+    </main>
+  
+    <footer>
+        <p>&copy; <span id="copyrightYear"></span> Heye Ma | China</p>
+        <p id="lastModified">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/spotlightAds.js"></script>
+    <script src="./scripts/banner.js"></script>
+    <script src="./scripts/bigHero.js"></script>
+    <script src="../scripts/getDates.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script>
+</body>
+</html>
