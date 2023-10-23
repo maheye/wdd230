@@ -1,0 +1,73 @@
+{
+    "members": [
+      {
+        "name": "Company 1",
+        "address": "123 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company1.webp",
+        "membershipLevel": "Gold",
+        "additionalInfo": "TechWave Innovations pioneers AI and IoT solutions, reshaping industries with innovation."
+      },
+      {
+        "name": "Company 2",
+        "address": "234 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company2.webp",
+        "membershipLevel": "Silver",
+        "additionalInfo": "NanoLogic Semiconductors specializes in nanotechnology-driven chips, revolutionizing devices with compact yet high-performance solutions."
+      },
+
+      {
+        "name": "Company 3",
+        "address": "345 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company3.webp",
+        "membershipLevel": "Bronze",
+        "additionalInfo": "VistaWave Semiconductors leads in optical semiconductor technology, enabling innovations in imaging, sensing, and communication."
+      },
+
+      {
+        "name": "Company 4",
+        "address": "456 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company4.webp",
+        "membershipLevel": "Gold",
+        "additionalInfo": "Silicon Dynamics engineers cutting-edge silicon chips, driving advancements in AI, IoT, and telecommunications."
+      },
+
+      {
+        "name": "Company 5",
+        "address": "567 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company5.webp",
+        "membershipLevel": "Gold",
+        "additionalInfo": "SolarTech Solutions designs solar systems, bringing renewable energy to homes and businesses."
+      },
+
+      {
+        "name": "Company 6",
+        "address": "678 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company6.webp",
+        "membershipLevel": "Silver",
+        "additionalInfo": "QuantumWave Electronics pioneers quantum semiconductor applications, pushing the boundaries of computing, communication, and encryption."
+      },
+
+      {
+        "name": "Company 7",
+        "address": "789 Road",
+        "phone": "1234567899",
+        "website": "http://samplecompanywebsite.com",
+        "image": "images/company7.webp",
+        "membershipLevel": "Bronze",
+        "additionalInfo": "InfiniteCircuits specializes in customizable semiconductor designs, delivering tailored solutions for diverse technological applications."
+      }
+   
+    ]
+  }

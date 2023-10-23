@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwan Semiconductor Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta
+      name="description"
+      content="Heye Ma- WDD 230 - Taiwan Semiconductor Chamber of Commerce"
+    />
+    <meta name="author" content="Heye Ma" />
+    <meta property="og:title" content="Taiwan Semiconductor Chamber of Commerce" />
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2016/11/21/17/40/buildings-1846728_1280.jpg" />
+    <meta property="og:url" content="https://maheye.github.io/wdd230/chamber/index.html" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+</head>
+<body>
+    <header>
+        <img src="./images/logo.webp" alt="Logo" id="logo" width="50" height="35" />
+        <h1 class="web-name">Taiwan Semiconductor Chamber of Commerce</h1>
+        <ul class="iconos">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.webp" alt="facebook logo" width="32" height="32" /></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.webp" alt="twitter logo" width="32" height="32"/></a>
+          </li>
+        </ul>
+    </header>
+  
+    <a id="menu" href="#" title="hamburger Menu"></a>
+    <nav>
+        <ul class="navigation">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./discover.html">Discover</a></li>
+          <li><a href="./join.html">Join</a></li>
+          <li><a href="./directory.html">Directory</a></li>
+        </ul>
+    </nav>
+
+    <main class="directory-main">
+        <div class="directory-button">
+        <button id="gridView">Grid</button>
+        <button id="listView">List</button>
+         </div>
+        <div id="membersContainer" class="directory-cards"></div>
+  
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyrightYear"></span> Heye Ma | China</p>
+        <p id="lastModified">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+    <script src="./scripts/toggleView.js"></script>
+    <script src="./scripts/directory.js"></script>
+    <script src="../scripts/getDates.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script>
+</body>
+</html>
